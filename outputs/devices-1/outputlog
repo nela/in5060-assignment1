@@ -1,0 +1,14 @@
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+[2877/2930] Compiling scratch/dumbbell-sim.cc
+[2892/2930] Linking build/scratch/dumbbell-sim
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (4.824s)
+
+creating 1 data streams
+Dumbbell Left Bottleneck NodeID 0
+ns3::Node
+Dumbbell Right Bottleneck NodeID 1
+Dumbbell Left Leaf 0 NodeID 2 IP Addr 10.1.0.1
+Dumbbell Right Leaf 0 NodeID 3 IP Addr 10.2.0.1
+Total number of packets dropped: 23

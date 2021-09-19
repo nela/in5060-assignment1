@@ -1,0 +1,14 @@
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.634s)
+
+creating 2 data streams
+Dumbbell Left Bottleneck NodeID 0
+ns3::Node
+Dumbbell Right Bottleneck NodeID 1
+Dumbbell Left Leaf 0 NodeID 2 IP Addr 10.1.0.1
+Dumbbell Left Leaf 1 NodeID 3 IP Addr 10.1.1.1
+Dumbbell Right Leaf 0 NodeID 4 IP Addr 10.2.0.1
+Dumbbell Right Leaf 1 NodeID 5 IP Addr 10.2.1.1
+Total number of packets dropped: 65
