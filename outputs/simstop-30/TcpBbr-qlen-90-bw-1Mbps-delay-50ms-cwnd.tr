@@ -1,0 +1,137 @@
+0.105114 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 10240
+0.220024 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 11264
+0.237272 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 13312
+ 0.25452 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 15360
+0.271768 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 17408
+0.289016 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 19456
+0.352139 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 21504
+0.369387 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 23552
+0.386635 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 25600
+0.403883 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 27648
+0.421131 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 29696
+0.438379 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 31744
+0.455627 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 33792
+0.507371 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 35840
+0.524619 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 37888
+0.541867 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 39936
+ 1.42152 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 41984
+ 1.43876 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 42175
+ 1.71473 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 33127
+ 1.85272 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 31079
+ 2.19768 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+ 2.69787 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 32103
+  2.8186 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+ 3.66376 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 32103
+ 3.78449 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+ 4.62964 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 32103
+ 4.75038 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+ 5.59553 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 32103
+ 5.71627 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+ 6.56142 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 32103
+ 6.68216 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+ 7.52731 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 32103
+ 7.64804 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+  8.4932 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 32103
+ 8.61393 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+ 9.45908 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 32103
+ 9.57982 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+ 10.1145 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 22525
+ 10.1145 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 10.1318 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 10.1318 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+  10.149 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+  10.149 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 10.1663 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 10.1663 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 10.1835 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 10.1835 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 10.2007 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 10.2007 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+  10.218 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+  10.218 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 10.2352 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 10.2352 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 10.3329 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 10.3329 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 10.3587 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 10.3587 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 10.4564 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 30055
+ 10.4564 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 32103
+ 10.4822 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 34151
+ 10.5798 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 36199
+ 10.5971 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38247
+ 10.6143 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40214
+ 10.6316 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40061
+ 10.6488 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+ 10.8386 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 37968
+ 11.9252 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+ 12.0804 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 37968
+  13.167 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+ 13.3223 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 37968
+ 14.4089 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+ 14.5641 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 37968
+ 15.6508 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+  15.806 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 37968
+ 16.8926 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+ 17.0478 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 37968
+ 18.1345 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+ 18.2897 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 37968
+ 19.3763 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+ 19.5316 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 37968
+ 20.6182 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+ 20.6527 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 26334
+ 20.6527 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.6699 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.6699 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.6872 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.6872 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.7044 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.7044 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.7217 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.7217 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.7389 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.7389 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.7562 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.7562 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.7734 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.7734 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.7907 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.7907 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.8079 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.8079 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.8252 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.8252 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.9314 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.9314 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 20.9486 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 6144
+ 20.9486 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 4096
+ 21.0549 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40016
+ 21.0549 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 42064
+ 21.0721 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 42250
+ 21.1784 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 41290
+ 21.1956 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40419
+ 21.2129 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 41706
+ 21.2301 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 41070
+ 21.2474 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 40513
+ 21.2646 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 39996
+ 21.2819 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 39544
+ 21.2991 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 39177
+ 21.3164 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38857
+ 21.3336 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38547
+ 21.3509 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38335
+ 21.3681 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38269
+ 21.5233 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 36221
+ 22.4892 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38269
+ 22.6272 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 36221
+ 23.5931 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38269
+ 23.7311 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 36221
+  24.697 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38269
+  24.835 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 36221
+ 25.8008 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38269
+ 25.9388 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 36221
+ 26.9047 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38269
+ 27.0427 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 36221
+ 28.0086 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38269
+ 28.1466 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 36221
+ 29.1125 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 38269
+ 29.2504 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/CongestionWindow 36221
