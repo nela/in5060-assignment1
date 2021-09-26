@@ -1,0 +1,20 @@
+0.105114 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+0.105578 /NodeList/3/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+0.106042 /NodeList/4/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+0.106506 /NodeList/5/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+ 0.10697 /NodeList/6/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+0.107434 /NodeList/7/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+0.107898 /NodeList/8/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+0.108362 /NodeList/9/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+0.108826 /NodeList/10/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+ 0.10929 /NodeList/11/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4294967295
+ 4.22513 /NodeList/5/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4460
+ 4.23367 /NodeList/2/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4987
+  4.2423 /NodeList/6/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4360
+ 4.57001 /NodeList/4/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4495
+ 4.63038 /NodeList/9/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4374
+ 4.69075 /NodeList/7/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4374
+ 4.72524 /NodeList/8/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4334
+  4.8978 /NodeList/3/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 4732
+ 9.04587 /NodeList/11/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 5885
+ 11.2622 /NodeList/10/$ns3::TcpL4Protocol/SocketList/0/SlowStartThreshold 20112

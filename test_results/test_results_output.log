@@ -1,0 +1,387 @@
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.593s)
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (2.028s)
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (2.060s)
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.726s)
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.962s)
+Starting Script
+Removing data folder
+Create folder 'test_results'
+Run (0,band:1Mbps,alg:TcpNewReno,buf:25):
+Run Params: '--tcpcaa=TcpNewReno --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpNewReno --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=25'
+Cmd: ./waf --cwd=test_results/TcpNewReno_1Mbps_25_0  --run "dumbbell-sim --tcpcaa=TcpNewReno --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpNewReno --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=25"
+Making Folder(test_results/TcpNewReno_1Mbps_25_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpNewReno_1Mbps_25_0)
+FilePrefix: test_results/TcpNewReno_1Mbps_25_0/TcpNewReno-qlen-25-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (1/8):TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Parsing (2/8):TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (3/8):TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (4/8):TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (5/8):TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (6/8):TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (7/8):TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (8/8):TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpNewReno-qlen-25-bw-1Mbps-delay-50ms-rtt.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpNewReno,buf:50):
+Run Params: '--tcpcaa=TcpNewReno --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpNewReno --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=50'
+Cmd: ./waf --cwd=test_results/TcpNewReno_1Mbps_50_0  --run "dumbbell-sim --tcpcaa=TcpNewReno --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpNewReno --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=50"
+Making Folder(test_results/TcpNewReno_1Mbps_50_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpNewReno_1Mbps_50_0)
+FilePrefix: test_results/TcpNewReno_1Mbps_50_0/TcpNewReno-qlen-50-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (1/8):TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (2/8):TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (3/8):TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (4/8):TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Parsing (5/8):TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (6/8):TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (7/8):TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (8/8):TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpNewReno-qlen-50-bw-1Mbps-delay-50ms-rtt.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpNewReno,buf:100):
+Run Params: '--tcpcaa=TcpNewReno --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpNewReno --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=100'
+Cmd: ./waf --cwd=test_results/TcpNewReno_1Mbps_100_0  --run "dumbbell-sim --tcpcaa=TcpNewReno --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpNewReno --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=100"
+Making Folder(test_results/TcpNewReno_1Mbps_100_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpNewReno_1Mbps_100_0)
+FilePrefix: test_results/TcpNewReno_1Mbps_100_0/TcpNewReno-qlen-100-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (1/8):TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (2/8):TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (3/8):TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (4/8):TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Parsing (5/8):TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-rtt.csv
+Parsing (6/8):TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (7/8):TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (8/8):TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpNewReno-qlen-100-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpNewReno,buf:200):
+Run Params: '--tcpcaa=TcpNewReno --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpNewReno --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=200'
+Cmd: ./waf --cwd=test_results/TcpNewReno_1Mbps_200_0  --run "dumbbell-sim --tcpcaa=TcpNewReno --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpNewReno --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=200"
+Making Folder(test_results/TcpNewReno_1Mbps_200_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpNewReno_1Mbps_200_0)
+FilePrefix: test_results/TcpNewReno_1Mbps_200_0/TcpNewReno-qlen-200-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (1/8):TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (2/8):TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (3/8):TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-rtt.csv
+Parsing (4/8):TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (5/8):TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (6/8):TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (7/8):TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (8/8):TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpNewReno-qlen-200-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpCubic,buf:25):
+Run Params: '--tcpcaa=TcpCubic --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpCubic --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=25'
+Cmd: ./waf --cwd=test_results/TcpCubic_1Mbps_25_0  --run "dumbbell-sim --tcpcaa=TcpCubic --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpCubic --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=25"
+Making Folder(test_results/TcpCubic_1Mbps_25_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpCubic_1Mbps_25_0)
+FilePrefix: test_results/TcpCubic_1Mbps_25_0/TcpCubic-qlen-25-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpCubic-qlen-25-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpCubic-qlen-25-bw-1Mbps-delay-50ms-cwnd.csvWaf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.881s)
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (2.127s)
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.982s)
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.813s)
+
+Parsing (1/8):TcpCubic-qlen-25-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpCubic-qlen-25-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (2/8):TcpCubic-qlen-25-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpCubic-qlen-25-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (3/8):TcpCubic-qlen-25-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpCubic-qlen-25-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (4/8):TcpCubic-qlen-25-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpCubic-qlen-25-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (5/8):TcpCubic-qlen-25-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpCubic-qlen-25-bw-1Mbps-delay-50ms-rtt.csv
+Parsing (6/8):TcpCubic-qlen-25-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpCubic-qlen-25-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (7/8):TcpCubic-qlen-25-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpCubic-qlen-25-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (8/8):TcpCubic-qlen-25-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpCubic-qlen-25-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpCubic,buf:50):
+Run Params: '--tcpcaa=TcpCubic --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpCubic --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=50'
+Cmd: ./waf --cwd=test_results/TcpCubic_1Mbps_50_0  --run "dumbbell-sim --tcpcaa=TcpCubic --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpCubic --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=50"
+Making Folder(test_results/TcpCubic_1Mbps_50_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpCubic_1Mbps_50_0)
+FilePrefix: test_results/TcpCubic_1Mbps_50_0/TcpCubic-qlen-50-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpCubic-qlen-50-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpCubic-qlen-50-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (1/8):TcpCubic-qlen-50-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpCubic-qlen-50-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (2/8):TcpCubic-qlen-50-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpCubic-qlen-50-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (3/8):TcpCubic-qlen-50-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpCubic-qlen-50-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Parsing (4/8):TcpCubic-qlen-50-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpCubic-qlen-50-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (5/8):TcpCubic-qlen-50-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpCubic-qlen-50-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (6/8):TcpCubic-qlen-50-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpCubic-qlen-50-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (7/8):TcpCubic-qlen-50-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpCubic-qlen-50-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (8/8):TcpCubic-qlen-50-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpCubic-qlen-50-bw-1Mbps-delay-50ms-rtt.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpCubic,buf:100):
+Run Params: '--tcpcaa=TcpCubic --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpCubic --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=100'
+Cmd: ./waf --cwd=test_results/TcpCubic_1Mbps_100_0  --run "dumbbell-sim --tcpcaa=TcpCubic --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpCubic --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=100"
+Making Folder(test_results/TcpCubic_1Mbps_100_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpCubic_1Mbps_100_0)
+FilePrefix: test_results/TcpCubic_1Mbps_100_0/TcpCubic-qlen-100-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpCubic-qlen-100-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpCubic-qlen-100-bw-1Mbps-delay-50ms-rtt.csv
+Parsing (1/8):TcpCubic-qlen-100-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpCubic-qlen-100-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (2/8):TcpCubic-qlen-100-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpCubic-qlen-100-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (3/8):TcpCubic-qlen-100-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpCubic-qlen-100-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (4/8):TcpCubic-qlen-100-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpCubic-qlen-100-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (5/8):TcpCubic-qlen-100-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpCubic-qlen-100-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (6/8):TcpCubic-qlen-100-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpCubic-qlen-100-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (7/8):TcpCubic-qlen-100-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpCubic-qlen-100-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (8/8):TcpCubic-qlen-100-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpCubic-qlen-100-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpCubic,buf:200):
+Run Params: '--tcpcaa=TcpCubic --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpCubic --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=200'
+Cmd: ./waf --cwd=test_results/TcpCubic_1Mbps_200_0  --run "dumbbell-sim --tcpcaa=TcpCubic --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpCubic --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=200"
+Making Folder(test_results/TcpCubic_1Mbps_200_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpCubic_1Mbps_200_0)
+FilePrefix: test_results/TcpCubic_1Mbps_200_0/TcpCubic-qlen-200-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpCubic-qlen-200-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpCubic-qlen-200-bw-1Mbps-delay-50ms-rtt.csv
+Parsing (1/8):TcpCubic-qlen-200-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpCubic-qlen-200-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (2/8):TcpCubic-qlen-200-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpCubic-qlen-200-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (3/8):TcpCubic-qlen-200-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpCubic-qlen-200-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (4/8):TcpCubic-qlen-200-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpCubic-qlen-200-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (5/8):TcpCubic-qlen-200-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpCubic-qlen-200-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Parsing (6/8):TcpCubic-qlen-200-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpCubic-qlen-200-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (7/8):TcpCubic-qlen-200-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpCubic-qlen-200-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (8/8):TcpCubic-qlen-200-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpCubic-qlen-200-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpBbr,buf:25):
+Run Params: '--tcpcaa=TcpBbr --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpBbr --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=25'
+Cmd: ./waf --cwd=test_results/TcpBbr_1Mbps_25_0  --run "dumbbell-sim --tcpcaa=TcpBbr --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpBbr --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=25"
+Making Folder(test_results/TcpBbr_1Mbps_25_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpBbr_1Mbps_25_0)
+FilePrefix: test_results/TcpBbr_1Mbps_25_0/TcpBbr-qlen-25-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpBbr-qlen-25-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpBbr-qlen-25-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (1/8):TcpBbr-qlen-25-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpBbr-qlen-25-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (2/8):TcpBbr-qlen-25-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpBbr-qlen-25-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (3/8):TcpBbr-qlen-25-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpBbr-qlen-25-bw-1Mbps-delay-50ms-rtt.csv
+Parsing (4/8):TcpBbr-qlen-25-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpBbr-qlen-25-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (5/8):TcpBbr-qlen-25-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpBbr-qlen-25-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (6/8):TcpBbr-qlen-25-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpBbr-qlen-25-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (7/8):TcpBbr-qlen-25-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpBbr-qlen-25-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (8/8):TcpBbr-qlen-25-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpBbr-qlen-25-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpBbr,buf:50):Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.781s)
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (2.064s)
+Waf: Entering directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Waf: Leaving directory `/Users/nela/repos/bake/source/ns-3.34/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.959s)
+
+Run Params: '--tcpcaa=TcpBbr --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpBbr --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=50'
+Cmd: ./waf --cwd=test_results/TcpBbr_1Mbps_50_0  --run "dumbbell-sim --tcpcaa=TcpBbr --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpBbr --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=50"
+Making Folder(test_results/TcpBbr_1Mbps_50_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpBbr_1Mbps_50_0)
+FilePrefix: test_results/TcpBbr_1Mbps_50_0/TcpBbr-qlen-50-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpBbr-qlen-50-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpBbr-qlen-50-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (1/8):TcpBbr-qlen-50-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpBbr-qlen-50-bw-1Mbps-delay-50ms-rtt.csv
+Parsing (2/8):TcpBbr-qlen-50-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpBbr-qlen-50-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (3/8):TcpBbr-qlen-50-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpBbr-qlen-50-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (4/8):TcpBbr-qlen-50-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpBbr-qlen-50-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (5/8):TcpBbr-qlen-50-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpBbr-qlen-50-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (6/8):TcpBbr-qlen-50-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpBbr-qlen-50-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Parsing (7/8):TcpBbr-qlen-50-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpBbr-qlen-50-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (8/8):TcpBbr-qlen-50-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpBbr-qlen-50-bw-1Mbps-delay-50ms-internetstack.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpBbr,buf:100):
+Run Params: '--tcpcaa=TcpBbr --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpBbr --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=100'
+Cmd: ./waf --cwd=test_results/TcpBbr_1Mbps_100_0  --run "dumbbell-sim --tcpcaa=TcpBbr --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpBbr --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=100"
+Making Folder(test_results/TcpBbr_1Mbps_100_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpBbr_1Mbps_100_0)
+FilePrefix: test_results/TcpBbr_1Mbps_100_0/TcpBbr-qlen-100-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpBbr-qlen-100-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpBbr-qlen-100-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (1/8):TcpBbr-qlen-100-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpBbr-qlen-100-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (2/8):TcpBbr-qlen-100-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpBbr-qlen-100-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (3/8):TcpBbr-qlen-100-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpBbr-qlen-100-bw-1Mbps-delay-50ms-rtt.csv
+Parsing (4/8):TcpBbr-qlen-100-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpBbr-qlen-100-bw-1Mbps-delay-50ms-ssthresh.csv
+Parsing (5/8):TcpBbr-qlen-100-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpBbr-qlen-100-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (6/8):TcpBbr-qlen-100-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpBbr-qlen-100-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (7/8):TcpBbr-qlen-100-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpBbr-qlen-100-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (8/8):TcpBbr-qlen-100-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpBbr-qlen-100-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Done parsing files!!!
+Run (0,band:1Mbps,alg:TcpBbr,buf:200):
+Run Params: '--tcpcaa=TcpBbr --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpBbr --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=200'
+Cmd: ./waf --cwd=test_results/TcpBbr_1Mbps_200_0  --run "dumbbell-sim --tcpcaa=TcpBbr --error_p=0 --bandwidth=1Mbps --tcpcaa=TcpBbr --access_bandwidth=10Mbps  --run=0 --simstop=100  --queue_size=200"
+Making Folder(test_results/TcpBbr_1Mbps_200_0)
+Running command
+res:0
+Sleeping 3 sec to allow cleanup to finish!
+Parsing folder (test_results/TcpBbr_1Mbps_200_0)
+FilePrefix: test_results/TcpBbr_1Mbps_200_0/TcpBbr-qlen-200-bw-1Mbps-delay-50ms
+Parsing (0/8):TcpBbr-qlen-200-bw-1Mbps-delay-50ms-qlen-pkt.tr
+Out File:TcpBbr-qlen-200-bw-1Mbps-delay-50ms-qlen-pkt.csv
+Parsing (1/8):TcpBbr-qlen-200-bw-1Mbps-delay-50ms-internetstack.tr
+Out File:TcpBbr-qlen-200-bw-1Mbps-delay-50ms-internetstack.csv
+Parsing (2/8):TcpBbr-qlen-200-bw-1Mbps-delay-50ms-qlen-byte.tr
+Out File:TcpBbr-qlen-200-bw-1Mbps-delay-50ms-qlen-byte.csv
+Parsing (3/8):TcpBbr-qlen-200-bw-1Mbps-delay-50ms-qdisclen-drop.tr
+Out File:TcpBbr-qlen-200-bw-1Mbps-delay-50ms-qdisclen-drop.csv
+Parsing (4/8):TcpBbr-qlen-200-bw-1Mbps-delay-50ms-bottlenecktrace.tr
+Out File:TcpBbr-qlen-200-bw-1Mbps-delay-50ms-bottlenecktrace.csv
+Parsing (5/8):TcpBbr-qlen-200-bw-1Mbps-delay-50ms-rtt.tr
+Out File:TcpBbr-qlen-200-bw-1Mbps-delay-50ms-rtt.csv
+Parsing (6/8):TcpBbr-qlen-200-bw-1Mbps-delay-50ms-leafnodetrace.tr
+Out File:TcpBbr-qlen-200-bw-1Mbps-delay-50ms-leafnodetrace.csv
+Parsing (7/8):TcpBbr-qlen-200-bw-1Mbps-delay-50ms-cwnd.tr
+Out File:TcpBbr-qlen-200-bw-1Mbps-delay-50ms-cwnd.csv
+Parsing (8/8):TcpBbr-qlen-200-bw-1Mbps-delay-50ms-ssthresh.tr
+Out File:TcpBbr-qlen-200-bw-1Mbps-delay-50ms-ssthresh.csv
+Done parsing files!!!
