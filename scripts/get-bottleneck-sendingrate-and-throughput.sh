@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Works only with ...internetstack.tr files
+
 file=$1
 
 if [ -z $2 ]; then
@@ -36,5 +38,6 @@ grep -E '/NodeList/0/|/NodeList/1/' $file | grep Payload |
         ac[++k]=asum/n
         bc[++r]=bsum/n
       } END {
+        print "#Sec","Sent","Recv","M.avg S","M.avg R"
         for (j=1; j<=k+(n-m); j++) print d[j],ac[j],bc[j]
       }'
