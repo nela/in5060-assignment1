@@ -10,11 +10,11 @@ else
   moving_avg=$2
 fi
 
-awk -F'[ .]' '
+grep 'Payload' $file | awk -F'[ .]' '
   BEGIN { OFS="\t\t" } {
-    if ($1 ~ /-/ && $49 ~ /Payload/) {
+    if ($1 ~ /-/) {
       deq[$2]+=1
-    } else if ($1 ~ /\+/ && $49 ~ /Payload/) {
+    } else if ($1 ~ /\+/) {
       enq[$2]+=1
     } else if ($1 ~ /r/ ) {
       recv[$2]+=1
@@ -22,4 +22,4 @@ awk -F'[ .]' '
   } END {
       print "#Sec","Enq","Deq","Recv","Recv-Deq"
       for (i in deq) print i,enq[i],deq[i],recv[i],deq[i]-recv[i]
-  }' $file | sort -n
+  }' | sort -n
