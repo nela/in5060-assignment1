@@ -38,37 +38,57 @@ awk -v OFS="\t" -v h="#Sec" '
       print ""
     }
   }' <(echo "$res") | sort -n | sed '/^[[:space:]]*$/d' |
-      awk -vc=$clients 'BEGIN { FS=OFS="\t"; ln=-1; } NR == 1 { print $0; next; } {
-        while (++ln != $1) {
-          str=""
-          for (i = 0; i < c-1; i++) { str = str FS }
-          print ln,str
-        }
-      }1' | awk -vn=$moving_avg '
-        BEGIN { FS=OFS="\t"; m = int((n + 1)/2); }
-        NR==1 {
-          first = $0
-          for (g=2; g<=NF; g++) first = first FS "M"$g
-          next
-        } {
-          for (i = 2; i <= NF; ++i) {
-            arr[NR-1,i]=$i
-            sum[i]+=$i
-          }
-        } (NR-1) < m {
-          noavg[++h] = $0 FS
-        } (NR-1) >= m {
-          d[NR-1] = $0
-        } (NR-1) > n {
-          for (k = 2; k<=NF; ++k) sum[k]-=arr[NR-m,k];
-        } (NR-1) >= n {
-          for (l = 2; l <= NF; ++l) arrc[NR-m,l]=sum[l]/n;
-        } END {
-          print first
-          for (q in noavg) print noavg[q]
-          for (p = m; p <= (NR-1); ++p) {
-            str=arrc[p,2]
-            for (t = 3; t <= NF; ++t) { str = str FS arrc[p,t] }
-            print d[p] FS str
-          }
-        }' | sort -n
+  awk -vc=$clients '
+    BEGIN { FS=OFS="\t"; ln=-1; } NR == 1 { print $0; next; }
+    {
+      while (++ln != $1) {
+        str=""
+        for (i = 0; i < c-1; i++) { str = str FS }
+        print ln,str
+      }
+    } 1' | awk -vn=$moving_avg '
+    BEGIN { FS=OFS="\t"; m = int((n + 1)/2); }
+    NR==1 {
+      first = $0
+      for (g=2; g<=NF; g++) first = first FS "M"$g
+      next
+    } {
+      for (i = 2; i <= NF; ++i) {
+        arr[NR-1,i]=$i
+        sum[i]+=$i
+      }
+    } (NR-1) < m {
+      sstr=""
+      for (wi = 1; wi <= NF-1; ++wi) { sstr = FS sstr }
+      noavg[++h] = $0 sstr
+    } (NR-1) >= m {
+      d[NR-1] = $0
+    } (NR-1) > n {
+      for (k = 2; k<=NF; ++k) sum[k]-=arr[NR-m,k];
+    } (NR-1) >= n {
+      for (l = 2; l <= NF; ++l) arrc[NR-m,l]=sum[l]/n;
+    } END {
+      print first
+      for (q in noavg) print noavg[q]
+      for (p = m; p <= (NR-1); ++p) {
+        str=arrc[p,2]
+        for (t = 3; t <= NF; ++t) { str = str FS arrc[p,t] }
+        print d[p] FS str
+      }
+    }' | awk -vc=$clients -vn=$moving_avg '
+    BEGIN { FS=OFS="\t"; m = int((n +1)/2); }
+    NR==1 {
+      first = $0 FS "GP-Mean" FS "GP-Ma-Mean"
+      next;
+    } {
+      data[NR] = $0
+      streamSum=0;
+      maSum=0;
+      for (i = 2; i <= int((NF/2) + 1); ++i) streamSum+=$i;
+      for (j = 12; j <= NF; ++j) maSum+=$j;
+      rowStreamSum[NR]=streamSum/c;
+      rowMaSum[NR]=maSum/c;
+    } END {
+      print first;
+      for (r in data) print data[r],rowStreamSum[r],rowMaSum[r]
+    }' | sort -n
