@@ -10,16 +10,16 @@ set terminal pngcairo size 1200,1000 enhanced font 'Verdana,10'
 
 set macros
 POS = "at graph 0.5, 0.9 font ',8;'"
-XTICS = "set format x '%.0f'; set xtics('Throughput' 1, 'Goodput' 2) scale 0.0; set xlabel 'Time in seconds';"
+XTICS = "set format x '%.0f'; set xtics('Throughput' 1, 'Goodput' 2) scale 0.0;"
 YTICS = "set format y '%.0f'; set ylabel 'Throughput in bytes/second';"
-NOXTICS = "set format x ''; unset xlabel;"
+NOXTICS = "set format x ''; unset xlabel; set noxtics;"
 NOYTICS = "set format y ''; unset ylabel;"
 TMARGIN = "set tmargin at screen 0.91; set bmargin at screen 0.56;"
 BMARGIN = "set tmargin at screen 0.54; set bmargin at screen 0.18;"
 LMARGIN = "set lmargin at screen 0.13; set rmargin at screen 0.53;"
 RMARGIN = "set lmargin at screen 0.55; set rmargin at screen 0.95;"
 
-set multiplot layout 2,2 rowsfirst title "Tcp".key.": Throughput and Goodput Node Average Variance"
+set multiplot layout 2,2 rowsfirst title "Tcp".key.": Throughput and Goodput Node 10s Moving Average Variance"
 
 set yrange[0:15000]
 # set xrange [0:100]

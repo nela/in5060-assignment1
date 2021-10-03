@@ -15,4 +15,4 @@ gnuplot -e "bbr25='parsed_test_results/Tcp${bbr}_1Mbps_25_0/goodput-and-moving-a
   -e "nr25='parsed_test_results/Tcp${nr}_1Mbps_25_0/goodput-and-moving-average.dat'" \
   -e "nr100='parsed_test_results/Tcp${nr}_1Mbps_100_0/goodput-and-moving-average.dat'" \
   -e "nr200='parsed_test_results/Tcp${nr}_1Mbps_200_0/goodput-and-moving-average.dat'" \
-  -e "key='goodput'" gnuscripts/node-throughput.gp
+  -e "key='${key}'" gnuscripts/node-throughput.gp

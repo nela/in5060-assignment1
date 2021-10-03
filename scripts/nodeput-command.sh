@@ -14,5 +14,5 @@ gnuplot -e "bbr25='parsed_test_results/Tcp${bbr}_1Mbps_25_0/throughput-and-movin
   -e "nr25='parsed_test_results/Tcp${nr}_1Mbps_25_0/throughput-and-moving-avg.dat'" \
   -e "nr100='parsed_test_results/Tcp${nr}_1Mbps_100_0/throughput-and-moving-avg.dat'" \
   -e "nr200='parsed_test_results/Tcp${nr}_1Mbps_200_0/throughput-and-moving-avg.dat'" \
-  -e "key='throughput'" gnuscripts/node-throughput.gp
+  -e "key='Throughput'" gnuscripts/node-throughput.gp
 
